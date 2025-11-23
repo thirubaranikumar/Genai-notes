@@ -1,0 +1,201 @@
+Total embeddings created: 145
+Created 145 relationship embeddings
+
+
+============================================================
+TESTING GRAPHRAG
+============================================================
+
+============================================================
+
+User Question: Which servers run Ubuntu?
+
+Step 1: Refining query...
+
+Refined for Embedding: servers run Ubuntu
+
+servers run Ubuntu
+Step 2: Searching knowledge graph...
+
+
+============================================================
+HYBRID SEARCH: Which servers run Ubuntu?
+============================================================
+
+Step 1: Finding semantically relevant relationships...
+Found 10 relevant relationships
+Involving 9 nodes
+
+Step 2: Expanding context from involved nodes...
+Found 30 related nodes
+
+Step 3: Finding connections between retrieved entities...
+Found 112 connections
+Step 3: Generating answer...
+
+Answer:
+Server 1, Server 2, Server 3, and Server 7 run Ubuntu.
+
+
+============================================================
+
+User Question: Which country runs on which OS?
+
+Step 1: Refining query...
+
+Refined for Embedding: countries run on operating systems
+
+countries run on operating systems
+Step 2: Searching knowledge graph...
+
+
+============================================================
+HYBRID SEARCH: Which country runs on which OS?
+============================================================
+
+Step 1: Finding semantically relevant relationships...
+Found 10 relevant relationships
+Involving 10 nodes
+
+Step 2: Expanding context from involved nodes...
+Found 30 related nodes
+
+Step 3: Finding connections between retrieved entities...
+Found 112 connections
+Step 3: Generating answer...
+
+Answer:
+San Francisco runs on Ubuntu 20.04.
+London runs on Ubuntu 22.04.
+San Francisco runs on Red Hat Enterprise Linux 8.
+
+
+============================================================
+
+User Question: What does London have?
+
+Step 1: Refining query...
+
+Refined for Embedding: locations contain servers
+
+locations contain servers
+Step 2: Searching knowledge graph...
+
+
+============================================================
+HYBRID SEARCH: What does London have?
+============================================================
+
+Step 1: Finding semantically relevant relationships...
+Found 10 relevant relationships
+Involving 9 nodes
+
+Step 2: Expanding context from involved nodes...
+Found 30 related nodes
+
+Step 3: Finding connections between retrieved entities...
+Found 108 connections
+Step 3: Generating answer...
+
+Answer:
+London contains Server 3 and Server 7. Ubuntu 20.04 and Ubuntu 22.04 are available in London. Application 2, Application 6, Application 12, Application 16 are located in London.
+
+
+============================================================
+
+User Question: What OS is in each location?
+
+Step 1: Refining query...
+
+Refined for Embedding: OS in each location: OS available locations.
+
+OS in each location: OS available locations.
+Step 2: Searching knowledge graph...
+
+
+============================================================
+HYBRID SEARCH: What OS is in each location?
+============================================================
+
+Step 1: Finding semantically relevant relationships...
+Found 10 relevant relationships
+Involving 12 nodes
+
+Step 2: Expanding context from involved nodes...
+Found 30 related nodes
+
+Step 3: Finding connections between retrieved entities...
+Found 111 connections
+Step 3: Generating answer...
+
+Answer:
+Ubuntu 20.04 is in San Francisco and London.
+Ubuntu 22.04 is in New York and London.
+CentOS 7 is in New York.
+Red Hat Enterprise Linux 8 is in San Francisco.
+Windows Server 2019 is in Singapore.
+
+
+============================================================
+
+User Question: What OS runs in New York?
+
+Step 1: Refining query...
+
+Refined for Embedding: OS runs located New York
+
+OS runs located New York
+Step 2: Searching knowledge graph...
+
+
+============================================================
+HYBRID SEARCH: What OS runs in New York?
+============================================================
+
+Step 1: Finding semantically relevant relationships...
+Found 10 relevant relationships
+Involving 10 nodes
+
+Step 2: Expanding context from involved nodes...
+Found 20 related nodes
+
+Step 3: Finding connections between retrieved entities...
+Found 73 connections
+Step 3: Generating answer...
+
+Answer:
+CentOS 7 and Ubuntu 22.04 run in New York.
+
+
+============================================================
+
+User Question: Which apps are in London?
+
+Step 1: Refining query...
+
+Refined for Embedding: applications located London
+
+applications located London
+Step 2: Searching knowledge graph...
+
+
+============================================================
+HYBRID SEARCH: Which apps are in London?
+============================================================
+
+Step 1: Finding semantically relevant relationships...
+Found 10 relevant relationships
+Involving 9 nodes
+
+Step 2: Expanding context from involved nodes...
+Found 30 related nodes
+
+Step 3: Finding connections between retrieved entities...
+Found 108 connections
+Step 3: Generating answer...
+
+Answer:
+Applications 2, 6, 12, and 16 are in London.
+
+Done
+(venv) Baranikumars-MacBook-Pro:graphRAG-backend barani$ 
